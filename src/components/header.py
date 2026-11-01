@@ -17,7 +17,8 @@ def header_home():
 
 def header_dashboard():
 
-    logo_url = "https://i.ibb.co/YTYGn5qV/logo.png"
+    # logo_url = "https://i.ibb.co/YTYGn5qV/logo.png"
+    logo_url = "https://json.commudle.com/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN2ZYQkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ%3D%3D--73c22c8357c4b7a1d773987ac80427e1e7959645/Community%20Logo.png?utm_source=chatgpt.com"
     
     st.markdown(f"""
         <div style="display:flex; align-items:center; justify-content:center; gap:10px">
