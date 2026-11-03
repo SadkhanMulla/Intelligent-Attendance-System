@@ -7,8 +7,6 @@ import streamlit as st
 from src.database.db import get_all_students
 
 
-
-
 @st.cache_resource
 def load_dlib_models():
     # face detector
@@ -73,6 +71,10 @@ def get_trained_model():
     return {'clf': clf, 'X':X, "y":y}
 
 
+def train_classifier():
+    st.cache_resource.clear()
+    model_data = get_trained_model()
+    return bool(model_data)
 
 
 
